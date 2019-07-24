@@ -5,11 +5,15 @@ EAI can understand man language and interpret it into machine code.
 
 ### System architecture
 
-EAI has modules called Frames. Every single frame has responsibilities defined by 
+EAI has modules called [Frames](eai/frame.md). Every single frame has responsibilities defined by 
 its creator and its purpose.
 EAI has endpoints. Endpoint - it is client which uses opportunities of EAI. 
 Endpoint can to be a website, Android app, devise based on Arduino or any other hardware or software.
 Endpoint must to transmit data from man to EAI core frame, and nothing else.
+
+- [Frame](eai/frame.md)
+- Endpoint
+- Storage
 
 #### Logic Entities:
 
@@ -30,6 +34,10 @@ Endpoint must to transmit data from man to EAI core frame, and nothing else.
 - User context - store simple data about user words.
 
 #### Vertexes:
+- [Frame](vertexes/frame.md)
+- Command
+- Event
+- Snapshot
 
 #### Edges:
 
